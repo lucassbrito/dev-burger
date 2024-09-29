@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a10ce929f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Hamburgueria</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card-car-g">
+            <div class="card-car-m">
+                <h2>Meu Carrinho</h2>
+
+                <div class="div-carrinho">
+                    <div class="conteudo">
+                        <p>hamburguer aqui</p>
+                        <p>quantidade</p>
+                        <p>total</p>
+                    </div>
+
+                    <div class="remover">
+                        <p>Remover</p>
+                    </div>
+                </div>
+
+                <div class="endereço">
+                    <label>Endereço de entrega:
+                        <input placeholder="Seu endereço aqui">
+                    </label>
+                </div>
+                <button class="fechar">Fechar</button>
+                <button class="finalizar">Finalizar Pedido</button>
+
+
+            </div>
+        </div>
+
+        <header>
+            <div class="header">
+                <img src="./assets/burger2.jfif">
+                <h1>Dev Burger</h1>
+                <p>Rua José Leite, Lauro de Freitas</p>
+                <p class="diassemana">Seg à Dom - 15 as 22hs</p>
+            </div>
+        </header>
+
+        <main class="menu">
+            <h2>Conheça nosso menu</h2>
+            <div class="grid">
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/burger1.jfif">
+                    </div>
+                    <div>
+                        <h4>Burger 1</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>25.99</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/burger2.jfif">
+                    </div>
+                    <div>
+                        <h4>Burger 2</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>23.50</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/burger3.jfif">
+                    </div>
+                    <div>
+                        <h4>Burger 3</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>18.99</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/burger4.jfif">
+                    </div>
+                    <div>
+                        <h4>Burger 4</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>19.99</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/burger5.jfif">
+                    </div>
+                    <div>
+                        <h4>Burger 5</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>23.70</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/burger6.jfif">
+                    </div>
+                    <div>
+                        <h4>Burger 6</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>21.50</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 id="bebidas">Bebidas</h3>
+            <div class="grid2">
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/coca.jfif">
+                    </div>
+                    <div>
+                        <h4>Coca</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>5.00</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-items">
+                    <div>
+                        <img src="./assets/H2O.jfif">
+                    </div>
+                    <div>
+                        <h4>H2O</h4>
+                        <p>Delicioso hamburguer de pão sabor três queijos e recheado de coisas gostosas.</p>
+                        <div class="precoecarrinho">
+                            <p>R$ <span>6.50</span></p>
+                            <i class="fa-solid fa-cart-shopping" id="buttonCar"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalItens">
+                <button>
+                    <p>(<span>0</span>) total de itens no meu carrinho</p>
+                </button>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

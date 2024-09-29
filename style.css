@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header h1, p {
+    color: aliceblue;
+    padding: 5px;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.diassemana {
+    background-color:green;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menu h2{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.menu p{
+    color: black;
+    font-size: 12px;
+    padding: 5px 5px 5px 0;;
+}
+
+.card-items {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0 15px 0;
+    width: 90%;
+}
+
+.grid, .grid2 {
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+    grid-template-columns:auto auto;
+    margin: 0 50px 40px 50px;
+}
+
+#bebidas {
+    text-align: start;
+    margin: 0 0 20px 100px;
+}
+
+.menu img {
+    border-radius: 10px;
+    width: 100px;
+    height: 90px;
+    margin-right: 15px;
+}
+
+.precoecarrinho {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.precoecarrinho p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.precoecarrinho i{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .grid, .grid2 {
+        display: grid;
+        justify-content: start;
+        grid-template-columns: auto;
+    }
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    z-index: 99;
+}
+
+.footer button{
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: bold;
+}
+
+button .carrinho {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;    
+}
+
+.totalItens button {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: none;
+}
+
+.totalItens button:hover {
+    opacity:0.9;
+}
+
+.totalItens button:active {
+    opacity:0.8;
+}
+
+.totalItens p {
+    color: white;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    text-align: center;
+}
+
+/* Carrinho */
+
+.card-car-g {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    display: none;
+}
+
+.remover {
+    cursor: pointer;
+}
+
+.card-car-m{
+    width: 70vw;
+    padding: 5px;
+    text-align: start;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 98;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.card-car-m p {
+    color: black;
+}
+
+.div-carrinho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: start;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.endereço {
+    position: relative;
+    float: left;
+    text-align: start;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.endereço input {
+    width: 100%;
+    line-height: 30px;
+    outline: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.fechar {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.finalizar {
+    float: right;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
